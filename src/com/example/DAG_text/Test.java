@@ -1,6 +1,6 @@
 package com.example.DAG_text;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by gg on 2018/6/1.
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Test {
 
     public static void main(String[] args) {
-        ArrayList<Word> keywords = new ArrayList<>();
+        HashMap<Character, Node> keywords = new HashMap<>();
 
         //初始化关键字图
         Graphs.addGraph(keywords, "微信");
